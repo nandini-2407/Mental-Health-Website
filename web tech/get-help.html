@@ -1,0 +1,446 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <!--Links scripts and metadata-->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="styles/header-style.css" rel="stylesheet" type="text/css">
+    <link href="styles/getHelp-styles.css" rel="stylesheet" type="text/css">
+    <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <!--Toggling the  paragraphs with jquery-->
+<script> 
+$(document).ready(function(){
+  $("#button1").click(function(){
+    $("#routine").toggle(1000);
+  });
+  $("#button2").click(function(){
+    $("#declutter").toggle(1000);
+  });
+  $("#button3").click(function(){
+    $("#meditate").toggle(1000);
+  });
+  $("#button4").click(function(){
+    $("#nature").toggle(1000);
+  });
+  $("#button5").click(function(){
+    $("#service").toggle(1000);
+  });
+  $("#button6").click(function(){
+    $("#exercise").toggle(1000);
+  });
+});
+</script> 
+
+    <title>Mental Health And Wellbeing | Get Help </title>
+</head>
+
+<body>
+  <header>
+    <!--Start of navbar-->
+      <nav> 
+        
+         <a id="logo"  href="index.html"><img src="images/logo.png" alt="Website's logo."></a> 
+       
+          <input type="checkbox"  id="check" class="check">
+          <label for="check" class="check-button"> 
+              <i class="fas fa-bars"> </i>
+          </label>
+  
+          <ul>    
+              <li><a  href="index.html">Home</a></li>
+              <li><a href="learn-about-mental-disorders.html">Learn about mental disorders</a></li>
+              <li><a class="active" href="get-help.html">Get help </a></li>
+              <li><a href="faq.html">Faq </a></li>
+              <li><a href="contact.html">Contact us</a></li>
+              <button id="login-btn" onclick="location.href='login.html';">Log out</button> </a> 
+          </ul>
+  
+      </nav> <!--End of navbar-->
+         </header>
+
+           <!--Back to top button-->
+
+     <button onclick="topFunction()" id="myBtn" title="Go to top"> <i class="fas fa-angle-double-up"></i></button>  
+     <script src="scripts/back-to-top.js"></script>
+     
+<article> 
+    
+      <div class="start"> </div> 
+
+<div class="section1"> 
+  <!--Title with multicolors-->
+
+    <div id="title"><span style="color:#447294;">W</span><span style="color:#4a789a;">e</span>
+        <span style="color:#517ea0;"> </span><span style="color:#5785a6;">a</span><span style="color:#5d8bac;">r</span><span style="color:#6391b2;">e</span><span style="color:#6a97b7;">
+        </span><span style="color:#709dbd;">h</span><span style="color:#76a3c3;">e</span><span style="color:#7ca9c9;">r</span><span style="color:#83b0cf;">e</span><span style="color:#89b6d5;"> 
+        </span><span style="color:#8fbcdb;">t</span><span style="color:#98bed8;">o</span><span style="color:#a1c1d5;"> 
+        </span><span style="color:#abc3d3;">h</span><span style="color:#b4c5d0;">e</span><span style="color:#bdc8cd;">l</span><span style="color:#c6caca;">p</span><span style="color:#cfcdc7;"> 
+        </span><span style="color:#d8cfc4;">y</span><span style="color:#e2d1c2;">o</span><span style="color:#ebd4bf;">u</span><span style="color:#f4d6bc;">!</span>
+        </div>
+
+        <blockquote> 
+    <p>If <b>you</b> or <b>someone you know</b> has a <i>mental health problem</i>, there are ways to  get help. 
+        <br> Studies show that most people with <u>mental health problems</u> get better and many recover completely.</p>
+
+    <p>People often don’t get the mental health services they need because they don’t know where to start. 
+        <br> Talk to your <b>primary care doctor</b> or another health professional about mental health problems. 
+        <br>Ask them to connect you with the right mental health services.</p>
+     <p>Here we can't offer you professional counseling, but we hope to at least brighteen up your mood! </p>
+   
+     <p><span id="videos">Let's start with some motivational <a href="#video-section" >videos</a> and <a href="#audio-section" >audios.</a></span> </p>
+<br> <br> 
+</blockquote>
+</div>
+
+<hr> 
+         <!--Video Section-->
+<div class="video-section" id="video-section" >
+  <div class="gallery">
+      <figure class="gallery__item gallery__item--1">
+        <video id="video1" poster="images/video1poster.png" controls >
+              <source src="images/video1.mp4" type="video/mp4">
+           Your browser does not support HTML video.
+        </video>
+      </figure>
+      <figure class="gallery__item gallery__item--2">
+        <video id="video2"  poster="images/video2poster.png " controls>
+              
+          <source src="images/video2.mp4" type="video/mp4">
+          
+          Your browser does not support HTML video.
+        </video>
+      </figure>
+      <figure class="gallery__item gallery__item--3">
+        <video id="video3"  poster="images/video3poster.jpg " controls>
+              
+          <source src="images/video3.mp4" type="video/mp4">
+          
+          Your browser does not support HTML video.
+        </video>
+      </figure>
+      <figure class="gallery__item gallery__item--4">
+        <video id="video4"  poster="images/video4poster.jpg " controls>
+              
+          <source src="images/video4.mp4" type="video/mp4">
+          
+          Your browser does not support HTML video.
+        </video>
+      </figure>
+      <figure class="gallery__item gallery__item--5">
+        <video id="video5"  poster="images/video5poster.png " controls>
+              
+          <source src="images/video5.mp4" type="video/mp4">
+          
+          Your browser does not support HTML video.
+        </video>
+      </figure>
+      <figure class="gallery__item gallery__item--6">
+        <video id="video6"  poster="images/video6poster.png " controls>
+              
+          <source src="images/video6.mp4" type="video/mp4">
+          
+          Your browser does not support HTML video.
+        </video>
+      </figure>
+  </div>
+</div>
+
+<hr> 
+
+<p id="righparagraph"> <br> Take some minutes  of your day to meditate and listen to these relaxing sounds!</p>
+
+<!--Audio Section-->
+ <div class="section2" id="audio-section"> 
+    
+  <div class="player1"> 
+      <div class="imgbox1"> 
+          <img src="images/audioposter1.jpg" alt="Audio Poster"> 
+      </div>
+      <audio controls> 
+          <source src="images/audio1.mp3" type="audio/mp3">
+        </source>
+      </audio>
+  </div>
+
+  <div class="player1"> 
+    <div class="imgbox1"> 
+        <img src="images/audioposter2.jpg" alt="Audio Poster"> 
+    </div>
+    <audio controls> 
+        <source src="images/audio2.mp3" type="audio/mp3">
+      </source>
+    </audio>
+</div>
+
+</div>
+</article> 
+
+<hr> 
+<br> <br> <br> 
+<!--Random quote -->
+<div class="quote-container" id="quote-container"> 
+  <button id="btn">Press for a new quote!</button>
+  <div id="output">Press the button to generate a random quote!</div>
+</div>
+<script src="scripts/quote-generator.js"></script>
+<hr> 
+
+<!--Corona virus/lockdown section-->
+<div class="table"> 
+  <button  class="buttons" id="butoni1">Hide</button> 
+  <button  class="buttons" id="butoni2">Show</button>
+  <button  class="buttons" id="butoni3">Fade out</button>
+  <button  class="buttons" id="butoni4">Fade in</button>
+  <button  class="buttons" id="butoni5">Slide Toggle</button>
+
+   <br> <br> 
+  <h1 id="corona">Mental Health During Pandemic</h1>
+  <br> <br> 
+
+<script>
+
+  $(document).ready(function(){
+   // Hide with callback function 
+    $("#butoni1").click(function(){
+    $("#corona").hide("1000", function(){
+      alert("The title is now hidden"); 
+    });
+  });
+
+    $("#butoni2").click(function(){
+    $("#corona").show(1000);
+  });
+
+  $("#butoni3").click(function(){
+    $("#corona").fadeOut(1000);
+   }); 
+
+  $("#butoni4").click(function(){
+    $("#corona").fadeIn(1000);
+   });
+
+  $("#butoni5").click(function(){
+    $("#corona").slideToggle(1000);
+  });
+ });
+
+
+</script> 
+
+<br> <br> 
+<p id="multiple-columns"> The coronavirus disease 2019 (COVID-19) pandemic has taken a toll on the mental health of millions of people around the world.
+    <br> For many people, it is challenging to adapt to the new realities of working from home, temporary unemployment, home-schooling of children, 
+     and lack of physical contact with other family members, friends and colleagues. 
+     <br> Added to this comes managing the fear of contracting the virus and worry about people close to us who are particularly vulnerable. 
+     Recognizing that this situation can be particularly difficult for people with mental health conditions, we would like to encourage you to try doing these 
+     things to help mantain a good mental health during a pandemic and quaratine.
+</p>
+
+<br> <br> <br>
+    
+<table> 
+    <caption>Things to do during lockdown</caption>
+  <tr>
+    <th><svg width="25" height="25">
+      <circle cx="15" cy="15" r="5"
+      stroke="red" stroke-width="2" fill="white" />
+    Sorry, your browser does not support inline SVG.
+    </svg>Organize</th>
+    <th><svg width="15" height="15">
+      <rect x="0" y="0" rx="5" ry="5" width="15" height="15"
+      style="fill:white;stroke:red;stroke-width:5;opacity:1" />
+    Sorry, your browser does not support inline SVG.
+    </svg> Relax</th>
+    <th><svg width="25" height="25">
+      <circle cx="15" cy="15" r="5"
+      stroke="red" stroke-width="2" fill="white" />
+    Sorry, your browser does not support inline SVG.
+    </svg>Do Activities</th>
+  </tr>
+  <tr>
+    <td><a href="#button1">Have a routine (as much as you can)</a></td>
+    <td><a href="#button3">Meditate, or just breathe</a></td>
+    <td><a href="#button5">Be of service, from a distance</a></td>
+  </tr>
+  <tr>
+    <td><a href="#button2">Declutter your home</a></td>
+    <td><a href="#button4">Get outside—in nature—if you can</a></td>
+    <td><a href="#button6">Start an at-home exercise routine</a></td>
+  </tr>
+</table>
+</div>
+
+<div class="organize">
+    <button  id="button1">Have a routine as much as you can</button>
+    <p id="routine" ><img src="images/routine.jpg" style="width:40%; height:100%; float:right; margin-left: 1%" > 
+     We know how important routine is, especially for kids, under normal conditions. And when schools are closed and many people are 
+     working from home or told to stay at home, it might feel like all bets are off. But it’s actually much better for everyone’s mental health 
+     to try to keep a routine going, as much as possible.
+    <br> This means eating meals at regular times, sleeping, waking and exercising at set times, and maintaining social (socially distant) contact. 
+    Unstructured time can create boredom, spikes in anxiety or depression, which can lead to unhealthy patterns of coping.
+    Another reason is that keeping a routine reduces “decision fatigue,” the overwhelm and exhaustion that can come from too many options.
+     So in the morning, rather than wondering whether to start work or help the kids with their online learning, it’s better to know what you’re going 
+     to do—make a schedule that everyone can get on board with, and try to stick with it (as much as is possible—don’t beat yourself up if it doesn’t 
+     always work, and it’s sure not to work some days). This will free up some mental bandwidth during this time of uncertainty, which is already 
+     straining everyone’s cognitive capacities.
+    <br><br>  Make your own to-do list  by clicking the button below!</p>
+     <button id="to-do" onclick="window.open('todo-list.html','_blank')" title="To-Do List"> To Do List</button>
+
+</div>
+
+<div class="organize">
+  <button id="button2" >Declutter your home</button>
+  <p id="declutter" ><img src="images/organize.jpg" style="width:40%; height:100%; float:right; margin-left: 1%" >
+    Working on your home if you have time can be a good way to feel productive and in control (see caveat down below though). 
+    “Take the opportunity of the extra time by decluttering, cleaning or organizing your home,” says Serani, referencing the book Trauma-Informed Care. 
+    “Studies say the predictability of cleaning not only offers a sense of control in the face of uncertainty, but also offers your mind body and 
+    soul a respite from traumatic stress.”
+    The caveat is that you don’t want to become obsessive about cleaning, since there’s only so much you can do. 
+    But using the extra time, if you have it, to reorganize and toss or donate items you no longer use is a very good idea.
+    <br> <br> 
+    After hours of cleaning we all deserve some rest, don't we?
+  Use your relaxing time to play our mini game. Bring back the nostalgia! 
+  <br> Go to the game page by cliking here: <a href="game.html" target="_blank">  Play game</a>. 
+  </p>
+</div> 
+
+
+
+<div class="relax">
+  <button  id="button3" >Meditate, or just breathe</button>
+  <p id="meditate" > <img src="images/meditate.jpg" style="width:40%; height:100%; float:right; margin-left: 1%" >  
+    Meditation has lots of research behind it, as most people by now know—it’s been shown to reduce symptoms of depression and anxiety, 
+    and even increase the volume of certain areas of the brain. Mindfulness-based stress reduction (MBSR), developed by Jon Kabat-Zinnat UMass, 
+    has been shown, through numerous studies, to be effective—and while it generally involves an eight-week course, a number of organizations offer
+     this online. 
+     But if meditation isn’t for you, just breathing slowly might be. Controlled breathing has been used for millennia to calm 
+     the mind—and a study a few years ago showed the mechanism that might explain it. The researchers found that a tiny subset of 
+     neurons in the area of the brain known to control various types of breathing also seemed to house a group of neurons that controlled 
+     the animals’ level of arousal. Knocking this area out made mice uncharacteristically calm—and the team believe that slow breathing might
+      also tap into this area of the brain and have the same effect.
+</p>
+</div>
+
+<div class="relax">
+<button id="button4" >Get outside—in nature—if you can</button>
+<p id="nature" ><img src="images/walk.jpg" style="width:40%; height:100%; float:right; margin-left: 1%" >
+  This is much easier in the country or suburbs, but if you’re in the city and it’s feasible, shimmy past your building neighbors 
+  and go for a walk in the park. Remember to stay six feet away from other people—as city dwellers know, this can take some maneuvering, 
+  but it’s possible.
+  And there are some very good reasons to do so. Lots of recent research finds that spending time in nature is a boon to both mental 
+  and physical health. For instance, multiple studies have found that time in green and blue space is associated with reduced anxiety and depression,
+   and the connection may well be a causal one.
+  </p>
+</div> 
+
+
+<div class="activities">
+  <button  id="button5">Be of service, from a distance</button>
+  <p id="service" ><img src="images/service.jpg" style="width:40%; height:100%; float:right; margin-left: 1%" >
+    Being of service is one of the best things we can do for society—and on a more selfish note, for ourselves. 
+    Studies have repeatedly found that serving others, even via small acts of kindness, has strong and immediate mental health benefits. 
+    And feeling a sense of purpose has also been shown to help people recover from negative events and build resilience. 
+    For people who are lucky enough to be healthy right now and not caring for a loved one who’s sick, finding ways to help others 
+    in this kind of crisis is probably very good for your own well-being.
+    </p>
+
+</div>
+
+<div class="activities">
+<button id="button6" >Start an at-home exercise routine</button>
+<p id="exercise" ><img src="images/exercise.jpg" style="width:40%; height:100%; float:right; margin-left: 1%" >
+  Working out at home in these times is obviously a good way to stay healthy and kill indoor time. There are lots of options, 
+  from the 21st century ones (Peloton and MIRROR) to the old-fashioned ones (workout videos and the dusty hand weights in your closet). 
+  Many online workout sources are offering free access or longer free trial periods during this time, which might be worth looking into. 
+  But again, anything that gets your heart pumping or builds muscle is excellent for both physical and mental health.
+</p>
+</div> 
+
+<!--Counter, session storage application-->
+<div class="breaths-counter"> 
+  <p>Now before you leave the page I'm asking you to forget about everything for a while. Just take some deep breaths! 
+    <br><br> With each deep breath you take, click the button below!
+    <br>Let's see how many deep breaths you take as long as you are visiting our web page. 
+  </p>
+  <br>
+  <p><button onclick="clickCounter()" type="button">Click me!</button></p>
+<div id="result"></div>
+
+</div>
+
+<script>
+ function clickCounter() {
+  if (typeof(Storage) !== "undefined") {
+    if (sessionStorage.clickcount) {
+      sessionStorage.clickcount = Number(sessionStorage.clickcount)+1;
+    } else {
+      sessionStorage.clickcount = 1;
+    }
+    document.getElementById("result").innerHTML = "You have clicked the button " + sessionStorage.clickcount + " time(s) in this session.";
+  } else {
+    document.getElementById("result").innerHTML = "Sorry, your browser does not support web storage...";
+  }
+}
+  </script>
+
+
+
+
+  
+  <!--Footer-->
+
+  <footer class="footer">
+    <div class="footer-left">
+        <h3 id="mental-health">Mental Health and Wellbeing</h3>
+  
+        <p class="footer-links">
+            <a href="index.html">Home</a>
+            ·
+            <a href="learn-about-mental-disorders.html">Learn about mental disorders</a>
+            ·
+            <a href="get-help.html">Get help</a>
+            ·
+            <a href="faq.html">Faq</a>
+            ·
+            <a href="contact.html">Contact us</a>
+        </p>
+  
+        <p class="footer-copyrights">Copyright &copy; <script>document.write(new Date().getFullYear());</script> ,Mental Health and Wellbeing. All Rights Reserved.</p>
+  
+      
+        <div class="footer-icons">
+          
+          <a href="https://www.facebook.com/" target="_blank"><i class="fab fa-facebook"></i></a>
+          <a href="https://twitter.com/?lang=en" target="_blank"><i class="fab fa-twitter"></i></a>
+          <a href="https://www.linkedin.com/" target="_blank" ><i class="fab fa-linkedin"></i></a>
+          <a href="https://github.com/" target="_blank" ><i class="fab fa-github"></i></a>
+  
+        </div>
+  
+    </div>
+
+
+  
+    <div class="footer-right">
+    
+      <canvas id="mycanvas" width="80" height="70"
+      style="border:2px solid #ffffff; margin-right:10px;">
+  Canvas is not supported on your browser.
+</canvas>
+  
+<form name="contact_form" onsubmit="return validate_form()"> 
+        
+          <input type="text"  id="myemail" name="email" placeholder="Enter your email">
+          <textarea name="message" id="message" placeholder="Leave a message"></textarea>
+          <input type="submit" value="Send" id="submit-button">
+        </form>
+  
+    </div>
+    <script src="scripts/footer.js"></script>
+  </footer>
+
+
+</body>
+</html>

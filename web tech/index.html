@@ -1,0 +1,215 @@
+ <!DOCTYPE html>
+<html>
+
+<head>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@700&display=swap" rel="stylesheet">
+    <link href="homepage-styles.css" rel="stylesheet" type="text/css">
+    <link rel="stylesheet" type="text/css" href="slider.css">
+    <link href="header-style.css" rel="stylesheet" type="text/css">
+    <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+    <script src="scripts/time.js"> </script>
+    <link rel="icon" type="image/x-icon" href="images/favicon.ico">
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>MHA</title>
+    
+</head>
+
+
+<body>
+    <!-- Home -->
+    <header>
+        <!-- Navbar-->
+        <nav>
+
+            <a id="logo" href="index.html"><img src="images/logo.png" alt="LOGO"></a>
+
+            <input type="checkbox" id="check" class="check">
+            <label for="check" class="check-button">
+                <i class="fas fa-bars"> </i>
+            </label>
+
+            <ul>
+                  <li> <a class="active" href="index.html">Home</a>  </li>  
+                <li> <a href="#1"  >Learn More</a>
+                </li>
+                <li><a href="help.html" target="_blank">Get Help</a></li>
+                <!-- <li><a href="#">FAQ</a></li> -->
+                <li><a href="#3">About Us</a></li>
+            </ul>
+             
+
+
+
+        </nav>
+        <!-- Navbar end-->
+
+        <!-- Start `wrapper` -->
+        <div class="wrapper">
+            <div class="cols cols0">
+                <span class="topLine">Welcome</span>
+                <h1>We're team <span class="multiText">Brain Strong</span></h1>
+                <p>Our goal is to provide support and resources for anyone struggling with mental health issues.
+                     Explore our site and connect with our community.</p>
+            </div>
+            <div class="cols cols1">
+                <!-- Images slide bar -->
+                <div class="slider">
+                    <img src="images/slider1.png">
+                    <img src="images/slider2.png">
+                    <img src="images/slider4.png">
+                </div>
+                <script src="script.js"></script>
+            </div>
+        </div>
+
+        <!-- End `wrapper` -->
+
+    </header>
+
+    <!-- Back to top button -->
+    <button onclick="topFunction()" id="myBtn" title="Go to top"> <i class="fas fa-angle-up"></i></button>
+    <script src="back-to-top.js"></script>
+
+    <!-- Learn More -->
+
+    <h1 id="1"class="title" >Learn More</h1>
+    <div class="box-section">
+
+        <div id="box1" class="box">
+            <h2 class="box-heading">Mental Health Issues</h2>
+            <p>
+                1. Depression: A mood disorder that causes persistent feelings of sadness, hopelessness, and loss of
+                interest
+                in activities that a person once enjoyed.<br><br>
+                2. Anxiety: A group of disorders characterized by excessive worry, fear, and nervousness, such as
+                generalized
+                anxiety disorder, panic disorder, and phobias.<br><br>
+                3. Bipolar disorder: A mood disorder characterized by periods of mania (elevated mood, energy, and
+                activity
+                levels) and depression.<br><br>
+                4. Schizophrenia: A chronic and severe mental disorder that affects a person's thoughts, perceptions,
+                and
+                behaviors.<br><br>
+                5. Substance use disorders: Disorders related to the misuse or addiction to drugs or alcohol.<br><br>
+            </p>
+            <button class="clickme" onclick="location.href='learn-about-mental-disorders.html';" title="Read More">Know
+                More</button>
+        </div>
+
+
+        <div id="box2" class="box">
+            <h2 class="box-heading">Symptoms</h2>
+            <p>
+                1. Changes in mood or emotional state, such as feeling sad, hopeless, irritable, or anxious.<br><br>
+                2. Changes in behavior, such as social withdrawal, avoiding activities that were once enjoyed, or
+                changes in
+                eating and sleeping patterns.<br><br>
+                3. Difficulty concentrating or making decisions.<br><br>
+                4. Unexplained physical symptoms, such as headaches, stomachaches, or fatigue.<br><br>
+                5. Thoughts of self-harm or suicide.<br><br>
+            </p>
+            <button class="clickme" onclick="location.href='learn-about-mental-disorders.html';" title="Read More">Know
+                More</button>
+        </div>
+
+
+        <div id="box3" class="box">
+            <h2 class="box-heading">Treatment</h2>
+            <p>
+                1. Psychotherapy: It is a type of mental health treatment that involves talking with a trained mental
+                health
+                professional to help improve mental health. <br><br>
+                2. Medication: It can be used to manage symptoms of mental health conditions, such as depression and
+                anxiety.
+                <br><br>
+                3. Hospitalization: In some cases, hospitalization may be necessary for individuals with severe mental
+                health
+                conditions who are at risk of harming themselves or others.<br><br>
+                4. Lifestyle changes: Changes such as exercise, healthy eating, and stress management techniques can be
+                helpful
+                in improving mental health. <br><br>
+            </p>
+            <button class="clickme" onclick="location.href='get-help.html';" title="Read More">Know More</button>
+        </div>
+
+    </div>
+
+
+    <!-- About Us -->
+    <h1 id="3"class="title">About Us</h1>
+
+    <section class="team-section">
+
+        <div class="team-row">
+            <div class="member">
+                <img class="memberimg" src="images/ishita.jpg">
+                <h2> Ishita Gupta </h2>
+                <p> Hi, I'm a 20 years old student of Computer Engineering. I'm trying to raise mental health awareness
+                    in our community!
+                </p>
+                <div class="social-media">
+                    <h3> Follow Me:</h3>
+                    <a href="https://github.com/Ishita1604" target="_blank">
+                        <i id="giticon" class="fab fa-github"></i> </a>
+                    <a href="https://www.instagram.com/ishita._.1604/" target="_blank">
+                        <i id="igicon" class="fab fa-instagram"></i> </a>
+                    <a href="https://www.linkedin.com/in/ishita-gupta-593745225/" target="_blank">
+                        <i id="ldicon" class="fab fa-linkedin"></i> </a>
+                </div>
+            </div>
+
+            <div class="member">
+                <img class="memberimg" src="images/nandini.jpg">
+                <h2> Nandini Saini </h2>
+                <p> I'm Nandini, student of Computer Engineering. My goal is to help everyone that lacks information
+                    about mental health and wellbeing!
+                </p>
+                <div class="social-media">
+                    <h3> Follow Me: </h3>
+                    <a href="https://github.com/nandini-2407" target="_blank">
+                        <i id="giticon" class="fab fa-github"></i> </a>
+                       
+                    <a href="https://instagram.com/nandini_03?igshid=ZGUzMzM3NWJiOQ==" target="_blank">
+                        <i id="igicon" class="fab fa-instagram"></i> </a>
+                        <a href="https://www.linkedin.com/in/nandini-saini-868391221/" target="_blank">
+                            <i id="ldicon" class="fab fa-linkedin"></i> </a>
+                </div>
+                </div>
+            </div>
+        </div>
+
+        </div>
+
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="footer-left">
+            <h3 id="mental-health">Brain Strong<br><span class="footer-copyrightsfooter-quote">Think Well, Live Well!</span></h3>
+            <p class="footer-copyrights">Copyright &copy;
+                <script>document.write(new Date().getFullYear());</script><br>Mental Health and Wellbeing. All Rights Reserved.
+            </p>
+            <div class="footer-icons">
+                <a href="https://www.facebook.com/" target="_blank"><i class="fab fa-facebook"></i></a>
+                <a href="https://twitter.com/?lang=en" target="_blank"><i class="fab fa-twitter"></i></a>
+                <a href="https://www.linkedin.com/" target="_blank"><i class="fab fa-linkedin"></i></a>
+                <a href="https://github.com/" target="_blank"><i class="fab fa-github"></i></a>
+            </div>
+        </div>
+
+        <div class="footer-right">
+            <form name="contact_form" onsubmit="return validate_form()">
+                <input type="text" id="myemail" name="email" placeholder="Enter your email">
+                <textarea name="message" id="message" placeholder="Leave a message"></textarea>
+                <input type="submit" value="Send" id="submit-button">
+            </form>
+        </div>
+        <script src="scripts/footer.js"></script>
+    </footer>
+
+
+</body>
+
+</html> -->

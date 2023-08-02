@@ -1,0 +1,159 @@
+body {
+  font-family: Arial, sans-serif;
+  
+  /* background: linear-gradient(to top left, #ffffff 36%, #ffccff 100%);*/
+  background-color: #ffffff; 
+  color: #000;
+  margin: 0;
+  padding: 0;
+  /* background-image: linear-gradient(135deg, #f5f7fa 0%, #c3cfe2 100%);*/
+} 
+
+header {
+  
+  background-image: linear-gradient(to top, #fdcbf1 0%, #fdcbf1 1%, #e6dee9 100%);
+  color: #000000;
+  padding: 20px;
+  text-align: center;
+  font-family: 'Times New Roman', Times, serif;
+  position: fixed; /* Set the navbar to fixed position */
+  top: 0; /* Position the navbar at the top of the page */
+  width: 100%;
+}
+
+
+header h1 {
+  margin: 0;
+  font-size: 60px;
+}
+
+main {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+section {
+  margin-bottom: 40px;
+  display: flex;
+  flex-direction: row;
+}
+
+section .image-container {
+  flex: 1;
+  margin-right: 20px;
+}
+
+section .text-container {
+  flex: 2;
+  font-family: "Lato", sans-serif;
+}
+
+section img {
+  max-width: 100%;
+  height: auto;
+}
+
+section h2 {
+  font-size: 24px;
+  margin-top: 20px;
+  margin-bottom: 10px;
+  color: #4b0082;
+}
+
+section p {
+  font-size: 16px
+}
+
+.books {
+  background-color: #FEFBE9;
+  padding: 40px;
+}
+
+.books h2 {
+  color: #4B0082;
+  font-size: 24px;
+  margin-top: 0;
+  margin-bottom: 20px;
+}
+
+.books ul {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+.books li {
+  width: calc(33.33% - 20px);
+  margin-bottom: 20px;
+}
+
+.books .book-image {
+  display: block;
+  margin-bottom: 10px;
+}
+
+.books .book-title {
+  font-weight: bold;
+  color: #4B0082;
+  margin-top: 0;
+  margin-bottom: 5px;
+}
+
+.books .book-author {
+  font-style: italic;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+.colorful-section {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #e9d985;
+  padding: 50px;
+}
+
+.image-container {
+  
+  max-width: 50%;
+  height: auto;
+  margin-right: 50px;
+}
+
+.image-container img {
+  padding-top: 170px;
+  max-width: 100%;
+}
+
+.text-container {
+  padding-top: 120px;
+  max-width: 50%;
+  color: #191d1f;
+}
+
+.text-container h2 {
+  font-size: 3rem;
+  margin-bottom: 20px;
+}
+
+.text-container p {
+  font-size: 1.2rem;
+  line-height: 1.5;
+}
+
+@media only screen and (max-width: 768px) {
+  .colorful-section {
+    flex-direction: column;
+    padding: 20px;
+  }
+  
+  .image-container {
+    margin-right: 0;
+    margin-bottom: 20px;
+    max-width: 100%;
+  }
+}
